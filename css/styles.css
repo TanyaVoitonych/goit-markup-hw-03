@@ -20,6 +20,10 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+}
+
 /*----------HEADER----------*/
 
 .header {
@@ -34,6 +38,17 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -42,6 +57,7 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .header-logo-text {
@@ -52,6 +68,14 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -70,12 +94,20 @@ color: #404BBF;
     font-style: normal;
 }
 
+.header-address-list {
+    display: flex;
+    gap: 40px;
+    
+}
+
 .header-address-link {
     font-style: normal
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address-link:is(:hover,:focus) {
@@ -115,6 +147,9 @@ color: #404BBF;
     margin-bottom: 188px;
     display: block;
     margin: 0 auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -135,6 +170,15 @@ color: #404BBF;
 
 .benefits-list {
     padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+    width: 1128px;
+    height: 104px;
+}
+
+.benefits-container {
     padding-bottom: 120px;
 }
 
@@ -176,14 +220,20 @@ color: #404BBF;
     padding-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+    width: calc();
+}
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 16px 32px 16px;
 }
 
 .team-image {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -225,7 +275,11 @@ color: #404BBF;
     padding-bottom: 72px;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
 
 .portfolio-item {}
 
