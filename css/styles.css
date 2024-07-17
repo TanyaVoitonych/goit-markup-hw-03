@@ -164,7 +164,9 @@ color: #404BBF;
 
 .container {}
 
-.benefits-container{}
+.benefits-container{
+    padding: 120px 0;
+}
 
 .visually-hidden {
     visibility: collapse;
@@ -172,11 +174,8 @@ color: #404BBF;
 }
 
 .benefits-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 
 .benefits-item {
