@@ -160,17 +160,11 @@ color: #404BBF;
 
 /*----------BENEFITS----------*/
 
-.benefits {
+.benefits {}
 
-}
+.container {}
 
-.container {
-
-}
-
-.benefits-container{
-    padding: 120px 0;
-}
+.benefits-container{}
 
 .visually-hidden {
     display: none;
@@ -183,10 +177,7 @@ color: #404BBF;
     display: flex;
     gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.benefits-container {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .benefits-item {}
