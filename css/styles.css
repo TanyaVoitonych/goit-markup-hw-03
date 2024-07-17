@@ -33,12 +33,13 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    padding: 0 15px;
     padding: 24px 0 24px;
 }
 
