@@ -137,6 +137,7 @@ color: #404BBF;
 .hero-btn {
     font-weight: 500;
     font-size: 16px;
+    min-width: 169px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -144,7 +145,6 @@ color: #404BBF;
     cursor: pointer;
     margin-bottom: 188px;
     display: block;
-    min-width: 169px;
     margin: 0 auto;
     padding: 16px 32px;
     border-radius: 4px;
