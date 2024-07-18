@@ -161,7 +161,6 @@ color: #404BBF;
 /*----------BENEFITS----------*/
 
 .benefits {
-    padding: 120px 0;
 }
 
 .container {}
@@ -177,6 +176,7 @@ color: #404BBF;
 .benefits-list {
     display: flex;
     gap: 24px;
+    padding: 120px 0;
 }
 
 .benefits-item {
