@@ -214,6 +214,8 @@ color: #404BBF;
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -224,20 +226,19 @@ color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc();
 }
 
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding: 0px 16px 32px 16px;
+    width: calc:((100% - 3 * 24px) / 4);
 }
 
 .team-image {
