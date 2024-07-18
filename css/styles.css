@@ -277,8 +277,8 @@ color: #404BBF;
 }
 
 .portfolio-container {
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-title {
