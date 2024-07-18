@@ -169,7 +169,7 @@ color: #404BBF;
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;
     margin: 0 auto;
 }
 
