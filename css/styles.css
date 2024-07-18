@@ -175,7 +175,7 @@ color: #404BBF;
 
 .benefits-list {
     display: flex;
-    padding: 120px 0;
+    margin: 120px 0;
     gap: 24px;
 }
 
