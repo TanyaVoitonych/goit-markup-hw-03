@@ -294,14 +294,13 @@ color: #404BBF;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {}
 
 .portfolio-image {
-    padding-bottom: 32px;
-    border-top: none;
 }
 
 .portfolio-container {
