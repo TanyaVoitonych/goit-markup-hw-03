@@ -274,6 +274,9 @@ color: #404BBF;
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.portfolio-container {
     border: 1px solid #e7e9fc;
 }
 
