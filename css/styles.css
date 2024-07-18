@@ -169,9 +169,11 @@ color: #404BBF;
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: block;
     margin: 0 auto;
 }
+
+visibility: hidden;
 
 .benefits-list {
     display: flex;
