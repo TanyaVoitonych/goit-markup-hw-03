@@ -51,7 +51,7 @@ img {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -62,7 +62,7 @@ img {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -71,17 +71,16 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-    margin-right: 332px;
 }
 
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0 24px;
+    display: block;
 }
 
 .header-menu-link:is(:hover, :focus) {
@@ -95,16 +94,16 @@ color: #404BBF;
 .header-address-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-address-link {
     font-style: normal;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0 24px;
+    display: block;
 }
 
 .header-address-link:is(:hover,:focus) {
@@ -125,7 +124,7 @@ color: #404BBF;
     font-weight: 700;
     font-size: 56px;
     min-width: 169px;
-    line-height: 107%;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -138,7 +137,7 @@ color: #404BBF;
     font-weight: 500;
     font-size: 16px;
     min-width: 169px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;
@@ -196,14 +195,14 @@ color: #404BBF;
     font-weight: 500;
     margin-bottom: 8px;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .benefits-item-text {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -222,7 +221,7 @@ color: #404BBF;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -251,7 +250,7 @@ color: #404BBF;
     background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -261,7 +260,7 @@ color: #404BBF;
 .team-item-text {
     background-color: #FFFFFF;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -285,7 +284,7 @@ color: #404BBF;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -314,7 +313,7 @@ color: #404BBF;
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
@@ -322,28 +321,27 @@ color: #404BBF;
 
 .portfolio-item-text {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 /*----------FOOTER----------*/
 
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .footer-logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -355,7 +353,7 @@ color: #404BBF;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
@@ -363,7 +361,7 @@ color: #404BBF;
 
 .footer-text {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
