@@ -169,7 +169,7 @@ color: #404BBF;
 }
 
 .visually-hidden {
-    visibility: collapse;
+    visibility: hidden;
     margin: 0 auto;
 }
 
