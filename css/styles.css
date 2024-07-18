@@ -169,14 +169,14 @@ color: #404BBF;
 }
 
 .visually-hidden {
-    margin: 0 auto;
     visibility: hidden;
+    margin: 0 auto;
 }
 
 .benefits-list {
     display: flex;
-    gap: 24px;
     padding: 120px 0;
+    gap: 24px;
 }
 
 .benefits-item {
